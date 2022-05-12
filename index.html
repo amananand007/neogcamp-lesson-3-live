@@ -1,42 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Component Library</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home for Aman Anand</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Welcome to Aman Anand's component library</h1>
-    <p>I want to make a libray which would make all my projects look good and consistent.</p>
 
-    <hr>
+    <nav class="navigation container">
+        <div class="nav-brand">Web Developer</div>
+        <ul class="list-non-bullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
 
-    <h2>@typography</h2>
+    <header class="hero">
+        <img class="hero-img" src="/images/hero.svg" />
+        <h1 class="hero-heading">This is Aman Anand the <span class="heading-inverted">Web Developer</span> </h1>
+    </header>
 
-    <h1>This is the biggest headline</h1>
-    <h2>This is the second biggest haedline</h2>
-    <p>Let me show you the normal text.This is free flowing and will wrap at the end like a paragraph</p>
-    <small>This is a relatively smaller text.</small>
+    <section class="section ow">
+        <div class="conatiner container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, GIT, JavaScript,NodeJS,ReactJS and Web Hosting</p>
+        </div>
 
-    <hr>
+    </section>
 
-    <h2>@container</h2>
+    <section class="section">
+        <div class="conatiner container-center">
+            <h1>projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
 
-    <h3>Center Container</h3>
-    <div>This is a centered container and it will go till the specified width.</div>
+    </section>
 
-    <hr>
+    <section class="section ow">
+        <div class="conatiner container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non technical blogs and I will like to documnent my journey</p>
+            <a class="link link-secondary" href="/">See Blogs</a>
+        </div>
 
-    <h2>@Links</h2>
+    </section>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
+    <footer class="footer">
+        <div class="footer-header">Social Media Presence</div>
+        <ul class="social-links list-non-bullets">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/amananand007">Github</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Twitter</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/aman-anand-999632191/">Linkdin</a>
+            </li>
+        </ul>
+    </footer>
 
 </body>
 
